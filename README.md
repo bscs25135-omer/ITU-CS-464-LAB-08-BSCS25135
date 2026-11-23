@@ -69,6 +69,9 @@ void OnDisable() { GameEvents.PlayerDamaged -= OnDamaged; }
 ## Gameplay and UI sounds
 Pickup, damage, win and lose use AudioManager.PlaySfx (PlayOneShot with +/-2 semitone pitch variation and slight volume variation). UI sounds use one reusable AudioManager UI source driven by UiSoundBinder (no AudioSource per button).
 
+<img width="1222" height="692" alt="image" src="https://github.com/user-attachments/assets/dc0a8187-752c-4cd8-85cd-674274be7188" />
+
+
 ## Audio credits
 
 | File | Title | Author | Source URL | Licence |
