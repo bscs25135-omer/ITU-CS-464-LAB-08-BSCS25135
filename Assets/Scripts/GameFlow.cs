@@ -38,7 +38,7 @@ public class GameFlow : MonoBehaviour
         Time.timeScale = 1f;
         AudioManager.Pause(false);
         ScreenManager.StartAtMain = true;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenue");
     }
 
     void Update()   // Esc / Android Back

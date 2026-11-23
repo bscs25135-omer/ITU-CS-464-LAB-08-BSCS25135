@@ -5,6 +5,8 @@ public class PopIn : MonoBehaviour
     [SerializeField] float from = 0.7f;
     [SerializeField] float duration = 0.45f;
 
+    void OnEnable() { Play(); }
+
     public void Play()
     {
         StopAllCoroutines();
